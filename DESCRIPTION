@@ -1,0 +1,21 @@
+Package: HCPCV
+Type: Package
+Title: Determining the number of change-points via high-dimensional cross-validation.
+Version: 1.0
+Date: 2019-10-10
+Author: JIANG Haiyan
+Maintainer: JIANG Haiyan <gingerxjiang@gmail.com>
+Description: Determining the number of change-points via high-dimensional 
+    cross-valadition. 
+    Two change-point detection algorithms are used to find the locations of 
+    estimated change-points, i.e., dynamic programming (DP) algorithm, 
+    optimal partitioning  (OP) approach, and the pruned exact linear time (PELT)
+    method.
+License: GPL (>= 2)
+Depends: R (>= 3.00), Rcpp (>= 1.0.2)
+Imports: Rcpp (>= 1.0.2)
+Suggests: MASS
+LinkingTo: Rcpp
+RoxygenNote: 7.0.2
+Encoding: UTF-8
+

@@ -1,0 +1,4 @@
+useDynLib(HCPCV, .registration=TRUE)
+exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp, evalCpp)
+importFrom("stats", "complete.cases", "rchisq", "rnorm", "rt", "runif", "sd")
